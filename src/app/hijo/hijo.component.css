@@ -1,0 +1,11 @@
+.container {
+  height: 140px;
+  width: 700px;
+  border: 2px solid;
+  border-color: rgb(104, 147, 255);;
+  padding: 10px;
+  margin: 10px 5px 0 5px;
+}
+.boton {
+  margin: 0 5px 15px 0;
+}

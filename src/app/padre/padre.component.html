@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="col">
+        <h3>PARENT</h3>
+        <div class="row" style="text-align: center;">
+            <p>Menssage: {{mensaje}}</p>
+            <div class="col">
+                <button class="btn btn-primary boton" (click)="mensajeService()">Use Service</button>
+                <button class="btn btn-primary boton" (click)="mensajeInput()">Use Input Event</button>
+                <button class="btn btn-primary boton" (click)="mensajeSubject()">Use Observable</button>
+            </div>
+            <app-hijo style="text-align: left;" (msgOutput)="mensajeOutput($event)" [msgInput]="mensajeHijo"></app-hijo>
+        </div>
+    </div>
+</div>
